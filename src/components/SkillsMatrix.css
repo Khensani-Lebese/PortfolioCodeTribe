@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Raleway", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  color: white;
+}
+
+.skills-matrix-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: blueviolet;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skills-table th,
+.skills-table td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.skills-table th {
+  background-color: rgba(136, 14, 188, 0.2);
+  font-weight: bold;
+}
+
+.skills-table tr:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.skills-table td {
+  color: #ddd;
+}
