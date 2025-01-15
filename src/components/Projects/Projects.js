@@ -25,10 +25,9 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Card Guessing Game"
+              description="The objective of this project is to create a card guessing game using Node.js.  Users should be able to select two cards at a time, if they match they remain open, if they don’t match they flip to hide their contents again. The game is won when all cards are successfully matched to their corresponding cards."
+              ghLink="https://github.com/Khensani-Lebese/card-guessing-game.git"
             />
           </Col>
 
@@ -36,10 +35,12 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Resturant App(Group Projects)"
+              description="The objective of this project is to create a restaurant reservation platform with an admin dashboard that multiple restaurants can access (to be able to manage their restaurant and view their restaurant statistics). The platform should allow users to view restaurants, search for restaurants, view available reservation slots, and make reservations.
+              Contributors:Arthur Maatlane-https://github.com/TonyStagon//
+                           Jesse Mashoana-https://github.com/J3ZZ3                       "
+              ghLink="https://github.com/Khensani-Lebese/ResturantApplication.git"
+              demoLink=" "
             />
           </Col>
 
@@ -47,10 +48,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="TravelTides webApp(Group Project)"
+              description="a web or mobile app that helps users plan trips based on weather conditions in their chosen destinations. The app should integrate APIs to fetch real-time weather data and suggest activities or recommendations accordingly."
+              ghLink="https://github.com/Khensani-Lebese/weather-travel-planner-backend.git(Backend)"
+              demoLink=" "
             />
           </Col>
 
@@ -58,10 +59,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="EmployeeApp"
+              description="Create a simple admin portal by an organisation. The organisation wants to be able to easily track the current employees they have on this portal. The portal should track the following main details about all employees"
+              ghLink="https://github.com/Khensani-Lebese/EmployeeApp.git"
+              demoLink=" "
             />
           </Col>
 
@@ -69,10 +70,10 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title=" Hotel App"
+              description="an interactive React application with CRUD operations that integrate with Firebase to assess understanding of everything learnt so far.utilise React’s core concepts (State management, reusable components) everywhere applicable."
+              ghLink="https://github.com/Khensani-Lebese/HotelApp.git"
+              demoLink=""
             />
           </Col>
 
@@ -80,11 +81,10 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="ImageGalleryApp"
+              description=" a gallery application that allows users to capture and  view images, displaying  the locations they were taken on a map using geolocation. Additionally, the application should use SQLite for local data storage."
+              ghLink="https://github.com/Khensani-Lebese/ImageGalleryApp.git"
+              demoLink=""
             />
           </Col>
         </Row>

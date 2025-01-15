@@ -1,6 +1,5 @@
 import React from "react";
 import "./SkillsMatrix.css";
-import Feedback from "react-bootstrap/esm/Feedback";
 
 const FeedBack = () => {
   return (
