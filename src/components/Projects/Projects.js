@@ -51,7 +51,7 @@ function Projects() {
               title="TravelTides webApp(Group Project)"
               description="a web or mobile app that helps users plan trips based on weather conditions in their chosen destinations. The app should integrate APIs to fetch real-time weather data and suggest activities or recommendations accordingly."
               ghLink="https://github.com/Khensani-Lebese/weather-travel-planner-backend.git(Backend)"
-              demoLink=" "
+              demoLink="https://weather-travel-planner-frontend.vercel.app/"
             />
           </Col>
 
