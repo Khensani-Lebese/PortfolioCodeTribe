@@ -3,11 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import employee from "../../Assets/Projects/employee.jpg";
-import imagePicker from "../../Assets/Projects/imagePicker.png";
+import emotion from "../../Assets/Projects/emotion.png";
 import weatherActivity from "../../Assets/Projects/weatherActivity.png";
 import card from "../../Assets/Projects/card-guessing.png";
 import hotel from "../../Assets/Projects/hotel.png";
-import restaurant from "../../Assets/Projects/restaurant.png";
+import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -33,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={restaurant}
+              imgPath={bitsOfCode}
               isBlog={false}
               title="Resturant App(Group Project)"
               description="The objective of this project is to create a restaurant reservation platform with an admin dashboard that multiple restaurants can access (to be able to manage their restaurant and view their restaurant statistics). The platform should allow users to view restaurants, search for restaurants, view available reservation slots, and make reservations.
@@ -78,7 +78,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={imagePicker}
+              imgPath={emotion}
               isBlog={false}
               title="ImageGalleryApp"
               description=" a gallery application that allows users to capture and  view images, displaying  the locations they were taken on a map using geolocation. Additionally, the application should use SQLite for local data storage."

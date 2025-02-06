@@ -15,8 +15,8 @@ function AboutCard() {
             <a href="https://codetribe.co.za/">
               <b>CodeTribe</b>
             </a>{" "}
-            and a final year student at <a href="https://www.tut.ac.za/">TUT</a>
-            .
+            CodeTribe and a final year student at{" "}
+            <a href="https://www.tut.ac.za/">TUT</a>.
             <br />I am also an alumni of the
             <a href="https://www.linkedin.com/in/nka-thuto-edupropeller-232830147/">
               Nka'thuto EduPropeller NPO
