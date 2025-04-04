@@ -57,7 +57,7 @@ function Projects() {
               imgPath={employee}
               isBlog={false}
               title="EmployeeApp"
-              description="A simple admin portal by an organisation. The organisation wants to be able to easily track the current employees they have on this portal.You can change the details of the employees, add new employees, and delete employees."
+              description="Create a simple admin portal by an organisation. The organisation wants to be able to easily track the current employees they have on this portal. The portal should track the following main details about all employees"
               ghLink="https://github.com/Khensani-Lebese/EmployeeApp.git"
             />
           </Col>
